@@ -1,0 +1,26 @@
+
+Created a resin project at: https://dashboard.resin.io/apps
+
+Our resin project is at: https://dashboard.resin.io/apps/116568/devices
+
+#+NAME: setup repo to point to git AND resin
+#+BEGIN_SRC shell
+mkdir iitactileaudio
+cd iitactileaudio/
+git init
+git remote add resin gh_hh@git.resin.io:gh_hh/iitactilesound.git
+git remote add origin git@github.com:ii/iitactileaudio.git
+#+END_SRC
+
+We will now following along:
+https://docs.resin.io/raspberrypi/nodejs/getting-started/
+
+We added the package.json and Dockerfile.template from
+https://github.com/resin-io-projects/simple-server-node
+
+#+BEGIN_SRC shell
+git add Dockerfile.template
+git add package.json
+git commit -m 'initial dockerfile.template'
+git push resin HEAD:master
+#+END_SRC
