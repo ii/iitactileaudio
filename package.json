@@ -1,29 +1,29 @@
 {
-    "name": "tactile-sound-node",
-    "version": "1.0.0",
-    "description": "A simple Tactile Sound server on resin.io",
-    "main": "server.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node server.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/ii/iitactilesound.git"
-    },
-    "keywords": [
-        "resin.io",
-        "webserver",
-        "nodejs",
-        "expressjs"
-    ],
-    "author": "Hippie Hacker <hh@ii.org.nz>",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/resin-io-projects/simple-server-node/issues"
-    },
-    "homepage": "https://github.com/resin-io-projects/simple-server-node#readme",
-    "dependencies": {
-        "express": "*"
-    }
+  "name": "tactile-sound-node",
+  "version": "1.0.0",
+  "description": "A simple Tactile Sound server on resin.io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ii/iitactilesound.git"
+  },
+  "keywords": [
+    "resin.io",
+    "webserver",
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "Hippie Hacker <hh@ii.org.nz>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/resin-io-projects/simple-server-node/issues"
+  },
+  "homepage": "https://github.com/resin-io-projects/simple-server-node#readme",
+  "dependencies": {
+    "bleacon": "^0.4.0"
+  }
 }
